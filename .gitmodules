@@ -1,0 +1,6 @@
+[submodule "md2tgmd"]
+	path = md2tgmd
+	url = https://github.com/GoatAddy/md2tgmd.git
+[submodule "aeint"]
+	path = aeint
+	url = https://github.com/GoatAddy/aeint.git
