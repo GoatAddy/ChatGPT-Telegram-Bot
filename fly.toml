@@ -6,7 +6,7 @@ kill_timeout = 5
 processes = []
 
 [build]
-  image = "goataddy/chatgpt:latest"
+  image = "yym68686/chatgpt:latest"
 
 [env]
 
