@@ -2,7 +2,7 @@ version: "3.5"
 services:
   chatgptbot:
     container_name: chatgptbot
-    image: GoatAddy/chatgpt:latest
+    image: goataddy/chatgpt:latest
     environment:
       - BOT_TOKEN=
       - API=
