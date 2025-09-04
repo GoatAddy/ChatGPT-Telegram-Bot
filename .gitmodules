@@ -2,5 +2,5 @@
 	path = md2tgmd
 	url = https://github.com/GoatAddy/md2tgmd.git
 [submodule "aeint"]
-	path = aeint
+	path = aient
 	url = https://github.com/GoatAddy/aient.git
