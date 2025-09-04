@@ -9,9 +9,9 @@ from datetime import datetime
 
 # We expose variables for access from other modules
 
-from aeint.src.aient.utils import prompt
-from aeint.src.aient.core.utils import update_initial_model, BaseAPI
-from aeint.src.aient.models import chatgpt, groq, claude3, gemini, vertex, PLUGINS, whisper, DuckChat
+from aient.src.aient.utils import prompt
+from aient.src.aient.core.utils import update_initial_model, BaseAPI
+from aient.src.aient.models import chatgpt, groq, claude3, gemini, vertex, PLUGINS, whisper, DuckChat
 
 from telegram import InlineKeyboardButton
 
