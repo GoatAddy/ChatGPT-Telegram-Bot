@@ -1,5 +1,5 @@
 #!/bin/sh
 set -eu
 rm -rf /home/ChatGPT-Telegram-Bot
-git clone --recurse-submodules --depth 1 -b main --quiet https://github.com/GoatAddy/ChatGPT-Telegram-Bot.git
+git clone --recurse-submodules --depth 1 -b main --quiet https://github.com/goataddy/ChatGPT-Telegram-Bot.git
 python -u /home/ChatGPT-Telegram-Bot/bot.py
