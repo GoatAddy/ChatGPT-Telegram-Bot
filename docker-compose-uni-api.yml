@@ -1,7 +1,7 @@
 services:
   uni-api:
     container_name: uni-api
-    image: goataddy/uni-api:latest
+    image: yym68686/uni-api:latest
     ports:
       - 8001:8000
     volumes:
@@ -9,7 +9,7 @@ services:
 
   mybot:
     container_name: mybot
-    image: goataddy/chatgpt:latest
+    image: yym68686/chatgpt:latest
     depends_on:
       - uni-api
     environment:
