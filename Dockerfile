@@ -1,1 +1,1 @@
-FROM GoatAddy/chatgpt:latest
+FROM goataddy/chatgpt:latest
